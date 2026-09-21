@@ -12,4 +12,4 @@
 
 ## Additional Setup
 
-*   **Deployment Scripts:** Navigate to the `scripts` directory to spin everything up. Run `run-backend.[sh|ps1]` to start the Node.js server, and `run-frontend.[sh|ps1]` to build and deploy the Android app.
+*   **Deployment Scripts:** Navigate to the `scripts` directory to spin everything up. Run `.\scripts\run-backend.ps1` to start the Node.js server, and `.\scripts\run-frontend.ps1` to build and deploy the Android app.
