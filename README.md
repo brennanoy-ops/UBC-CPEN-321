@@ -1,14 +1,15 @@
 # CPEN321_26W1_ProjectName
 
-## Frontend Setup 
+## Frontend Setup
 
-_Please specify the setup steps needed for frontend before running the script to build and run frontend_
+*   **Set the Server Address:** Before building the frontend, you need to point the app to the backend server. Create or open the `local.properties` file in the root of the `Android` directory and add this exact line:
+    `API_BASE_URL="http://<YOUR_BACKEND_PUBLIC_IP>:<PORT>"`
 
-## Backend Setup 
+## Backend Setup
 
-_Please specify the setup steps needed for backend before running the script to build and run backend_
+*   **Docker:** The backend runs in a container, so please ensure Docker and Docker Compose are installed and running on your machine.
+*   **Google Cloud Firewall:** This backend is deployed on Google Cloud. If you are spinning up a new instance, make sure your GCP VPC firewall rules are configured to allow inbound HTTP/WS traffic on the specific port the Node.js server uses, otherwise GCP will block the connection.
 
-## Additional Setup 
+## Additional Setup
 
-_Please specify any other additional setup steps non-specific to either frontend nor backend_
-
+*   **Deployment Scripts:** Navigate to the `scripts` directory to spin everything up. Run `run-backend.[sh|ps1]` to start the Node.js server, and `run-frontend.[sh|ps1]` to build and deploy the Android app.

@@ -19,7 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
@@ -36,6 +37,7 @@
     "supertest": "^7.2.2",
     "ts-jest": "^29.4.12",
     "tsx": "^4.23.5",
-    "typescript": "~5.9"
+    "typescript": "~5.9",
+    "@types/ws": "^8.5.12"
   }
 }
